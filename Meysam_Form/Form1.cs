@@ -27,7 +27,7 @@ namespace Meysam_Form
             list.Items.Add(txt.Text);
             cmb.Items.Add(txt.Text);
             txt.Text = "";
-            txt.Select();
+         
         }
 
         private void List_SelectedIndexChanged(object sender, EventArgs e)
